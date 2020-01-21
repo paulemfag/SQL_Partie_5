@@ -1,0 +1,11 @@
+USE webDevelopment;
+SELECT DISTINCT * FROM languagess;
+SELECT * FROM languagess WHERE language = 'PHP';
+SELECT * FROM languagess WHERE language = 'PHP';
+SELECT * FROM languagess WHERE language = 'Javascript';
+SELECT DISTINCT *  FROM languagess WHERE id = '3';
+SELECT DISTINCT *  FROM languagess WHERE id = '5';
+SELECT DISTINCT *  FROM languagess WHERE id = '7';
+SELECT * FROM languagess WHERE language = 'JavaScript' LIMIT 2;
+SELECT * FROM languagess WHERE language != 'PHP';
+SELECT * FROM languagess ORDER BY language;
